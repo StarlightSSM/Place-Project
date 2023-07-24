@@ -37,7 +37,7 @@ DB: 신수민 //
 5. 프로젝트 결과물
  
  1) 메인 페이지 (관리자 페이지)
-  ![관리자로그인후](https://github.com/StarlightSSM/Place-Project/assets/87637645/4ac570e6-9b10-4d52-8322-ed240e3df77b)
+  ![관리자로그인후](https://github.com/StarlightSSM/Place-Project/assets/87637645/df10da8c-6de3-408c-bc83-0f47b0340468)
 
   - 상단 네비게이션 바 구현
   - 상단 맨 우측에 로그인 버튼 구현
@@ -48,7 +48,6 @@ DB: 신수민 //
   - 페이지는 스크롤로 구현
 
  2) 메인 페이지 (사용자)
-  ![image](https://github.com/StarlightSSM/Place-Project/assets/87637645/9cf436b0-6ffb-43c0-ac4f-2e3681eaab12)
 
   - 상단 네비게이션 바 구현
   - 상단 맨 우측에 로그인 버튼 구현
@@ -59,7 +58,8 @@ DB: 신수민 //
   - 페이지는 스크롤로 구현
 
  3) 로그인 페이지
-   ![로그인1](https://github.com/StarlightSSM/Place-Project/assets/87637645/d2bc4a86-3a6a-410c-9875-8fc0c6b53acd)
+   ![일반사용자로그인](https://github.com/StarlightSSM/Place-Project/assets/87637645/46ba4a2e-2575-401d-8edd-37c83e969b23)
+
 
   - 사용자 이메일, 패스워드 입력란 구현
   - 이메일, 비밀번호가 틀릴 경우 ‘이메일(로그인 전용 이메일) 또는 비밀번호를 잘못 입력했습니다 입력하신 내용을 다시 확인해주세요’
@@ -68,19 +68,24 @@ DB: 신수민 //
   - 로그인 밑에 회원가입 하는 버튼 구현
 
  4) 로그인 페이지(이메일&비밀번호 틀렸을 경우)
-   ![로그인2](https://github.com/StarlightSSM/Place-Project/assets/87637645/aeeefdf8-9612-4353-9e95-a573d86502ca)
+ 5) ![로그인2](https://github.com/StarlightSSM/Place-Project/assets/87637645/c7cf4946-0a95-44de-a06b-dbfad95789b4)
+
+   ![로그인1](https://github.com/StarlightSSM/Place-Project/assets/87637645/13776564-1763-4587-a8d5-fc9ade916026)
+
 
   - 이하 동일
 
  5) 회원가입 페이지
-   ![회원가입1](https://github.com/StarlightSSM/Place-Project/assets/87637645/8d9b143c-1e30-4d99-a36b-8be9125cbb1b)
-   ![회원가입2](https://github.com/StarlightSSM/Place-Project/assets/87637645/9773599c-7965-427a-b1d2-00314182b328)
+   ![회원가입1](https://github.com/StarlightSSM/Place-Project/assets/87637645/535f0431-5182-49b6-8b19-3ba8ce990327)
+
+   ![회원가입2](https://github.com/StarlightSSM/Place-Project/assets/87637645/f8f045c2-698d-4d98-ad31-7a9ca090418c)
 
   - 비밀번호의 특수 조건에 맞지 않게 기입할 시 ‘8~16자 영문 대 소문자, 숫자, 특수문자를 사용하세요.’ 경고 띄우기
   - 꼭 필요한 기입 란에 기입을 안할 시 ‘필수 정보입니다’ 경고 띄우기
 
  6) 장소등록 페이지
-  ![image](https://github.com/StarlightSSM/Place-Project/assets/87637645/134c07ab-97b2-488e-a282-5d3f5170d099)
+  ![장소등록하기](https://github.com/StarlightSSM/Place-Project/assets/87637645/04f461f2-5032-45e0-a471-9d0ca24862f7)
+
 
   - 장소명 입력란 구현
   - 카테고리와 체크박스 선택 영역 구현
@@ -93,59 +98,61 @@ DB: 신수민 //
   - 서비스업체(=우리)에서 직접 장소를 등록
 
  7) 장소수정 페이지
-    ![image](https://github.com/StarlightSSM/Place-Project/assets/87637645/abc78edf-9179-4ced-bacc-5d8197b2c720)
 
   - 이하 동일
   - 수정 버튼 구현
 
  8) 마이페이지
-    ![마이페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/2b6abea2-36eb-42a1-ae0f-ddebbd1b7532)
+    ![마이페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/450c998a-879e-4187-9912-d43ed9741f1d)
 
   - 사용자의 비밀번호 변경 기능 구현
   - 이름, 비밀번호, 이메일, 연락처 정보 확인
   - 비밀번호 옆에 변경하기 버튼 누를 시 모달창이 뜨면서  수정 가능
 
  9) 마이페이지(변경 모달창)
-    ![image](https://github.com/StarlightSSM/Place-Project/assets/87637645/5a7a9edb-597a-4a4d-807a-109c47ffd561)
 
   - 회원 수정을 원치 않으면 창을 닫아주면 수정을 취소 가능
   - 새 비밀번호 변경 가능
   - 꼭 필요할 시 이름, 연락처 변경 가능할 수 있게 구현
 
  10) 장소상세 페이지
-    ![장소 상세 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/e910ff56-2cbe-4bc5-9c83-4fd7451ccd33)
+   ![장소 상세 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/b31f239d-3c6a-4064-8a65-035b0fc31c58)
 
   - 장소에 대한 상세 내용(장소 이미지, 장소명, 장소위치, 특징, 시간당 비용,최근 리뷰)을 보여주는 영역을 구현
   - 예약하기 버튼 구현
 
  11) 장소예약 페이지
-    ![장소 예약 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/5b8839e5-423b-45f0-8d72-93520254a452)
+   ![장소 예약 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/96255848-33e0-464e-9552-070f3d813995)
+
 
   - 캘린더 기능을 넣어 시작일시, 종료일시 날짜를 선택
   - 총인원을 텍스트로 구현
   - 예약하기 버튼 누르면 결제페이지로 이동
 
  12) 리뷰 목록 페이지
-    ![리뷰 보기 페이지2](https://github.com/StarlightSSM/Place-Project/assets/87637645/f95a8dd4-8aba-4964-a511-5030cd1eaa4b)
+    ![리뷰 보기 페이지2](https://github.com/StarlightSSM/Place-Project/assets/87637645/273e422b-f723-4ecf-b0f1-2eb154c314ab)
+
 
   - 사용자들이 작성한 장소 리뷰를 볼 수 있게 기능 구현
   - 리뷰를 작성한 작성 날짜와 시간 기능 구현
 
  13) 장소목록 페이지
-    ![장소 목록 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/dc9abba5-94b1-469c-bd4f-eb5e27268d7d)
+    ![장소 목록 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/828ede9b-df7a-4db7-bd7b-e57531f16755)
 
   - 장소 목록 들어갈 시 추천 장소를 모두 보여주는 기능 구현
   - 위 카테고리 선택 시 해당 목록 페이지에 장소를 보여줌.
 
  14) 예약 목록 페이지
-    ![예약 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/005a30ec-680c-4ab8-8812-e35f16a2eb16)
+    ![예약 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/a38e5c29-6a07-44d8-80ac-63ef8d89219d)
+
 
   - 예약 목록을 보여주는 기능 구현
   - 리뷰쓰기 버튼 구현
   - 장소명, 결제일, 결제 금액, 시작 일시, 종료 일시, 이용 인원을 보여주는 기능 구현
 
  15) 리뷰 작성 페이지
-    ![리뷰 작성 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/caf42f70-cdbc-47c6-9e28-e4cddd29c758)
+    ![리뷰 작성 페이지](https://github.com/StarlightSSM/Place-Project/assets/87637645/fac8877c-f686-43e6-9818-c22f2f7b1f44)
+
 
   - 사용자들이 리뷰 작성하기 버튼 누를 시 페이지로 이동하여 리뷰를 작성할 수 있게 구현 
   - 확인 버튼 구현
